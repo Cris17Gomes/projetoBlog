@@ -1,3 +1,8 @@
+.whatsapp-container {
+    display: flex;
+    align-items: center;
+}
+
 .whatsapp-button {
     background-color: #25D366;
     color: #FFFFFF;
@@ -6,11 +11,28 @@
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
+    margin-right: 10px; /* Margem à direita para separar o botão do logo */
 }
 
-.whatsapp-button:hover {
-    background-color: #128C7E;
+.whatsapp-container {
+    display: flex;
+    align-items: center;
 }
-body{
-    background-color: #07680f;
+
+.whatsapp-button {
+    background-color: #25D366;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Margem à direita para separar o botão do logo */
+}
+
+.whatsapp-logo {
+    width: 30px; /* Defina a largura desejada para o logo */
+}
+img{
+    width: 50px; /* Defina a largura desejada para o logo */
 }
